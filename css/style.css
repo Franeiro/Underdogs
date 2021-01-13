@@ -1,5 +1,9 @@
 .navbar-expand-lg {
-  background-color: #493db4; }
+  background-color: #493db4;
+  font-family: 'Exo', sans-serif; }
+
+.navbar-brand {
+  font-size: 22px; }
 
 .banner {
   height: 50vh;
@@ -12,6 +16,18 @@
 .h2Objetivo, .pObjetivo {
   text-align: center;
   padding-top: 25px; }
+
+.h2Objetivo {
+  font-family: 'Exo', sans-serif; }
+
+.pObjetivo {
+  font-weight: 400;
+  font-family: 'Dosis', sans-serif;
+  padding-bottom: 25px;
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+  font-size: 22px; }
 
 /*
 
@@ -135,7 +151,9 @@
   row-gap: 2rem;
   background: #333;
   flex: wrap;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); }
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Exo', sans-serif; }
 
 .roster {
   height: 450px;
@@ -163,7 +181,8 @@
       padding: 0;
       color: #fff;
       text-align: center;
-      font-size: 1.5em; }
+      font-size: 2em;
+      text-transform: uppercase; }
 
 .cara2 {
   position: relative;
@@ -182,7 +201,7 @@
     margin: auto; }
 
 .roster:hover .cara1 {
-  background: blue;
+  background: #33339b;
   height: 150px;
   transform: translateY(0); }
   .roster:hover .cara1 .contenido {
@@ -190,7 +209,7 @@
 
 .roster:hover .cara2 {
   transform: translateY(0);
-  background: wheat; }
+  background: #e4e0d8; }
 
 .skills {
   width: 75%;
@@ -212,3 +231,20 @@
 
 .skill-name p:last-child {
   float: right; }
+
+.skills {
+  line-height: 2.7rem; }
+
+.progress-bar {
+  background-color: #33339b; }
+
+.h2Roster {
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Exo', sans-serif;
+  text-align: center; }
+
+.h2Galeria {
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Exo', sans-serif;
+  text-align: center;
+  padding-top: 10px; }
