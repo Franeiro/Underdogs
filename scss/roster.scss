@@ -1,17 +1,3 @@
-.navbar-expand-lg {
-  background-color: #493db4; }
-
-.banner {
-  height: 50vh;
-  background-color: grey; }
-
-.h2Banner {
-  padding: 70px 0;
-  text-align: center; }
-
-.h2Objetivo, .pObjetivo {
-  text-align: center;
-  padding-top: 25px; }
 
 /*
 
@@ -123,92 +109,136 @@
     
 }
 
-*/
-.containerRoster {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  align-content: space-between;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  row-gap: 2rem;
-  background: #333;
-  flex: wrap;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); }
+*/ 
 
-.roster {
-  height: 450px;
-  width: 350px;
-  display: grid;
-  flex: wrap;
-  margin: 0 auto;
-  position: relative; }
+.containerRoster
+{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+    margin: auto;
+    align-content: space-between;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    row-gap: 2rem;
+    background: #333;
+    flex: wrap;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 
-.cara1 {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-  transition: 0.5s;
-  transform: translateY(175px);
-  height: 350px;
-  background: #333; }
-  .cara1 .contenido {
-    opacity: 0.5;
-    transition: 0.5s; }
-    .cara1 .contenido h3 {
-      margin: 10px 0 0;
-      padding: 0;
-      color: #fff;
-      text-align: center;
-      font-size: 1.5em; }
 
-.cara2 {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  transition: 0.5s;
-  transform: translateY(-175px);
-  height: 350px;
-  background: #333; }
-  .cara2 .contenido {
+}
+
+.roster
+{
+    height: 450px;
+    width: 350px;
+    display: grid;
+    flex: wrap;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cara1
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: 0.5s;
+    transform: translateY(175px);
+    height: 350px;
+    background: #333;
+    
+
+    .contenido
+    {
+        opacity: 0.5;
+        transition: 0.5s;
+
+        h3
+        {
+            margin: 10px 0 0;
+            padding: 0;
+            color: #fff;
+            text-align: center;
+            font-size: 1.5em;
+        }
+
+    }
+}
+
+.cara2
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    transition: 0.5s; 
+    transform: translateY(-175px);
+    height: 350px;
+    background: #333;
+
+    .contenido
+    {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+
+    }
+
+
+
+    
+}
+
+
+.roster:hover 
+{
+    .cara1 
+    {
+        background:blue;
+        .contenido
+        {
+            opacity: 1;
+            
+        }
+        height: 150px;
+        transform: translateY(0);
+    }
+
+    .cara2 
+    {
+         transform: translateY(0);
+          background:wheat;
+    }
+}
+
+.skills 
+{
+    width: 75%;
+    margin: auto;
+    align-items: center;
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin: auto; }
+}
 
-.roster:hover .cara1 {
-  background: blue;
-  height: 150px;
-  transform: translateY(0); }
-  .roster:hover .cara1 .contenido {
-    opacity: 1; }
+ .skill-name {
+    text-align: left;
+}
 
-.roster:hover .cara2 {
-  transform: translateY(0);
-  background: wheat; }
+ .skill-name p {
+    display: inline-block;
+    color: #353535;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
 
-.skills {
-  width: 75%;
-  margin: auto;
-  align-items: center;
-  text-align: center;
-  align-items: center;
-  justify-content: center; }
-
-.skill-name {
-  text-align: left; }
-
-.skill-name p {
-  display: inline-block;
-  color: #353535;
-  font-size: 14px;
-  font-weight: 600;
-  margin: 0; }
-
-.skill-name p:last-child {
-  float: right; }
+ .skill-name p:last-child {
+    float: right;
+}
