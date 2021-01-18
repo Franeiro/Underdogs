@@ -1,11 +1,17 @@
 .banner
 {
-    height: 50vh;
-    background-color: grey;
-}
+   
+    justify-content: center;
+    align-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    overflow: hidden;
 
-.h2Banner
-{
-    padding: 70px 0;
-    text-align: center;
+    img
+    {
+        width: 100%;
+        height: auto;
+    }    
+
 }

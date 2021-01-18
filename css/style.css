@@ -6,12 +6,14 @@
   font-size: 22px; }
 
 .banner {
-  height: 50vh;
-  background-color: grey; }
-
-.h2Banner {
-  padding: 70px 0;
-  text-align: center; }
+  justify-content: center;
+  align-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden; }
+  .banner img {
+    width: 100%;
+    height: auto; }
 
 .h2Objetivo, .pObjetivo {
   text-align: center;
