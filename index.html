@@ -543,22 +543,22 @@
                 <h2>Queremos Escucharte</h2>
                 <div class="formBox">
                     <div class="inputBox w50">
-                        <input  name="Nombre" required>
+                        <input  name="Nombre" >
                         <span>Nombre</span>
                     </div>
 
                     <div class="inputBox w50">
-                        <input  name="Apellido" required>
+                        <input  name="Apellido" >
                         <span>Apellido</span>
                     </div>
 
                     <div class="inputBox w50">
-                        <input name="Mail" required>
+                        <input name="Mail" >
                         <span>E-Mail</span>
                     </div>
 
                     <div class="inputBox w100">
-                        <textarea name="Mensaje" required></textarea>
+                        <textarea name="Mensaje" ></textarea>
                         <span>Mandanos tu mensaje</span>
                     </div>
 
@@ -600,32 +600,33 @@
 
             </div>
 
-             <form action="">
+             <form action="" id="myForm">
             <div class="formContactoResponsive">
                 <h2>Queremos Escucharte</h2>
                 <div class="formBoxResponsive">
                     <div class="inputBox w50" id="inputResponsive">
-                        <input type="text" name="" required>
+                        <input name="Nombre">
                         <span>Nombre</span>
                     </div>
 
                     <div class="inputBox w50" id="inputResponsive">
-                        <input type="text" name="" required>
+                        <input name="Apellido">
                         <span>Apellido</span>
                     </div>
 
                     <div class="inputBox w50" id="inputResponsive">
-                        <input type="text" name="" required>
+                        <input name="Mail">
                         <span>E-Mail</span>
                     </div>
 
                     <div class="inputBox w100" id="inputResponsive2">
-                        <textarea name="" id="" required></textarea>
+                        <textarea name="Mensaje" ></textarea>
                         <span>Mandanos tu mensaje</span>
                     </div>
 
                     <div class="inputBox w100">
-                        <input type="submit" value="Enviar" class="submit" id="botonSub">
+                          <button onclick='SubForm()'>Submit</button>
+
                     </div>
 
                 </div>
