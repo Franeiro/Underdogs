@@ -37,7 +37,23 @@
 				}
 			});
 		}
-	</script>
+    </script>
+    
+    <script>
+		function SubForm2 (){
+			$.ajax({
+				url:"https://api.apispreadsheets.com/data/6745/",
+				type:"post",
+				data:$("#myForm2").serializeArray(),
+				success: function(){
+					alert("Form Data Submitted :)")
+				},
+				error: function(){
+					alert("There was an error :(")
+				}
+			});
+		}
+    </script>
     
 
         
@@ -600,32 +616,33 @@
 
             </div>
 
-             <form action="">
+             <form action="" id="myForm2">
             <div class="formContactoResponsive">
                 <h2>Queremos Escucharte</h2>
                 <div class="formBoxResponsive">
                     <div class="inputBox w50" id="inputResponsive">
-                        <input type="text" name="" required>
+                        <input  name="Nombre" >
                         <span>Nombre</span>
                     </div>
 
                     <div class="inputBox w50" id="inputResponsive">
-                        <input type="text" name="" required>
+                        <input  name="Apellido" >
                         <span>Apellido</span>
                     </div>
 
                     <div class="inputBox w50" id="inputResponsive">
-                        <input type="text" name="" required>
+                        <input  name="E-Mail" >
                         <span>E-Mail</span>
                     </div>
 
                     <div class="inputBox w100" id="inputResponsive2">
-                        <textarea name="" id="" required></textarea>
+                        <textarea name="Mensaje" id="" ></textarea>
                         <span>Mandanos tu mensaje</span>
                     </div>
 
                     <div class="inputBox w100">
-                        <input type="submit" value="Enviar" class="submit" id="botonSub">
+                            <button onclick='SubForm2()'>Submit</button>
+
                     </div>
 
                 </div>
