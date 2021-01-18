@@ -519,7 +519,7 @@
     height: 100%;
     box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5); }
     .formContacto h2 {
-      font-size: 24px;
+      font-size: 28px;
       font-weight: 500;
       font-family: 'Dosis', sans-serif;
       font-family: 'Exo', sans-serif;
@@ -714,17 +714,20 @@
 .qrResponsive {
   height: 200px;
   width: 200px;
-  display: flex; }
+  display: flex;
+  margin: 0  auto; }
 
-.textoQRResponsive {
-  font-size: 14px;
+.textoQRResponsive h3 {
+  font-size: 16px;
   font-weight: 200;
   font-family: 'Dosis', sans-serif;
   font-family: 'Exo', sans-serif;
-  padding-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
   text-align: center;
-  align-content: center;
-  padding: 10px 10px 10px 10px; }
+  align-content: center; }
 
 .qr {
   height: 300px;
@@ -734,13 +737,14 @@
 .textoQR {
   display: grid;
   text-align: center;
-  font-size: 14px;
   font-weight: 200;
   font-family: 'Dosis', sans-serif;
   font-family: 'Exo', sans-serif;
   padding-top: 15px;
   text-align: center;
   align-content: center; }
+  .textoQR h3 {
+    font-size: 20px; }
 
 .formBoxNuevo {
   display: grid;
