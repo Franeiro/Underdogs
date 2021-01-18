@@ -6,3 +6,13 @@
 @import "staff.scss";
 @import "contacto.scss";
 @import "footer.scss";
+
+html, body 
+{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}

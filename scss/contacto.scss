@@ -131,6 +131,7 @@ li:hover span:nth-child(2) {
             sans-serif;
         font-family: 'Exo',
             sans-serif;
+        text-align: center;
     }
 
 
@@ -226,6 +227,9 @@ li:hover span:nth-child(2) {
 {
     display: none;
 }
+
+
+
 
 }
 
@@ -442,4 +446,60 @@ li:hover span:nth-child(2) {
         display: none;
     }
 
+}
+
+.qrResponsive 
+{
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+
+.textoQRResponsive
+{
+    font-size: 14px;
+    font-weight: 200;
+    font-family: 'Dosis',
+    sans-serif;
+    font-family: 'Exo',
+    sans-serif;
+    padding-top: 15px;
+    text-align: center;
+    align-content: center;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.qr
+{
+    height: 300px;
+    width: 300px;
+    display: grid;
+    
+
+}
+
+.textoQR 
+{
+    display: grid;
+    text-align: center;
+     font-size: 14px;
+     font-weight: 200;
+     font-family: 'Dosis',
+     sans-serif;
+     font-family: 'Exo',
+     sans-serif;
+     padding-top: 15px;
+     text-align: center;
+     align-content: center;
+   
+}
+
+.formBoxNuevo
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-top: 30px;
+    justify-content: space-between;
 }

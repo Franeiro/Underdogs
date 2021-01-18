@@ -163,7 +163,14 @@
   margin: 0 auto;
   position: relative; }
 
-.cara1 {
+.cara1-1,
+.cara1-2,
+.cara1-3,
+.cara1-4,
+.cara1-5,
+.cara1-6,
+.cara1-7,
+.cara1-8 {
   position: relative;
   display: flex;
   justify-content: center;
@@ -173,10 +180,24 @@
   transform: translateY(175px);
   height: 350px;
   background: #333; }
-  .cara1 .contenido {
+  .cara1-1 .contenido,
+  .cara1-2 .contenido,
+  .cara1-3 .contenido,
+  .cara1-4 .contenido,
+  .cara1-5 .contenido,
+  .cara1-6 .contenido,
+  .cara1-7 .contenido,
+  .cara1-8 .contenido {
     opacity: 0.5;
     transition: 0.5s; }
-    .cara1 .contenido h3 {
+    .cara1-1 .contenido h3,
+    .cara1-2 .contenido h3,
+    .cara1-3 .contenido h3,
+    .cara1-4 .contenido h3,
+    .cara1-5 .contenido h3,
+    .cara1-6 .contenido h3,
+    .cara1-7 .contenido h3,
+    .cara1-8 .contenido h3 {
       margin: 10px 0 0;
       padding: 0;
       color: #fff;
@@ -200,16 +221,78 @@
     justify-content: center;
     margin: auto; }
 
-.roster:hover .cara1 {
-  background: #33339b;
+.roster:hover .cara1-1,
+.roster:hover .cara1-2,
+.roster:hover .cara1-3,
+.roster:hover .cara1-4,
+.roster:hover .cara1-5,
+.roster:hover .cara1-6,
+.roster:hover .cara1-7,
+.roster:hover .cara1-8 {
   height: 150px;
   transform: translateY(0); }
-  .roster:hover .cara1 .contenido {
+  .roster:hover .cara1-1 h3,
+  .roster:hover .cara1-2 h3,
+  .roster:hover .cara1-3 h3,
+  .roster:hover .cara1-4 h3,
+  .roster:hover .cara1-5 h3,
+  .roster:hover .cara1-6 h3,
+  .roster:hover .cara1-7 h3,
+  .roster:hover .cara1-8 h3 {
+    color: transparent; }
+  .roster:hover .cara1-1 .contenido,
+  .roster:hover .cara1-2 .contenido,
+  .roster:hover .cara1-3 .contenido,
+  .roster:hover .cara1-4 .contenido,
+  .roster:hover .cara1-5 .contenido,
+  .roster:hover .cara1-6 .contenido,
+  .roster:hover .cara1-7 .contenido,
+  .roster:hover .cara1-8 .contenido {
     opacity: 1; }
 
 .roster:hover .cara2 {
   transform: translateY(0);
   background: #e4e0d8; }
+
+.roster:hover .cara1-1 {
+  background-repeat: no-repeat;
+  background-size: 350px 150px;
+  background-image: url(/images/Banners/kun.png); }
+
+.roster:hover .cara1-2 {
+  background-repeat: no-repeat;
+  background-size: 350px 150px;
+  background-image: url(/images/Banners/jordi.png); }
+
+.roster:hover .cara1-3 {
+  background-repeat: no-repeat;
+  background-size: 350px 150px;
+  background-image: url(/images/Banners/marcos.png); }
+
+.roster:hover .cara1-4 {
+  background-repeat: no-repeat;
+  background-size: 350px 150px;
+  background-image: url(/images/Banners/michi.png); }
+
+.roster:hover .cara1-5 {
+  background-repeat: no-repeat;
+  background-size: 350px 150px;
+  background-image: url(/images/Banners/sellin.png); }
+
+.roster:hover .cara1-6 {
+  background-repeat: no-repeat;
+  background-size: 350px 150px;
+  background-image: url(/images/Banners/tomi.png); }
+
+.roster:hover .cara1-7 {
+  background-repeat: no-repeat;
+  background-size: 350px 150px;
+  background-image: url(/images/Banners/zanty.png); }
+
+.roster:hover .cara1-8 {
+  background-repeat: no-repeat;
+  background-size: 350px 150px;
+  background-image: url(/images/Banners/kun.png); }
 
 .skills {
   width: 75%;
@@ -439,7 +522,8 @@
       font-size: 24px;
       font-weight: 500;
       font-family: 'Dosis', sans-serif;
-      font-family: 'Exo', sans-serif; }
+      font-family: 'Exo', sans-serif;
+      text-align: center; }
   .formBox {
     position: relative;
     display: flex;
@@ -627,6 +711,44 @@
   .containerContacto {
     display: none; } }
 
+.qrResponsive {
+  height: 200px;
+  width: 200px;
+  display: flex; }
+
+.textoQRResponsive {
+  font-size: 14px;
+  font-weight: 200;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Exo', sans-serif;
+  padding-top: 15px;
+  text-align: center;
+  align-content: center;
+  padding: 10px 10px 10px 10px; }
+
+.qr {
+  height: 300px;
+  width: 300px;
+  display: grid; }
+
+.textoQR {
+  display: grid;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 200;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Exo', sans-serif;
+  padding-top: 15px;
+  text-align: center;
+  align-content: center; }
+
+.formBoxNuevo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-top: 30px;
+  justify-content: space-between; }
+
 @media (max-width: 576px) {
   .list-unstyled {
     display: flex;
@@ -671,3 +793,11 @@ a {
   height: 30px;
   width: 100%;
   background: #6335cf; }
+
+html, body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px; }
