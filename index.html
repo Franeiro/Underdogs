@@ -37,6 +37,22 @@
 				}
 			});
 		}
+    </script>
+    
+    <script>
+		function SubForm (){
+			$.ajax({
+				url:"https://api.apispreadsheets.com/data/6745/",
+				type:"post",
+				data:$("#myForm2").serializeArray(),
+				success: function(){
+					alert("Form Data Submitted :)")
+				},
+				error: function(){
+					alert("There was an error :(")
+				}
+			});
+		}
 	</script>
     
 
@@ -600,7 +616,7 @@
 
             </div>
 
-             <form action="" id="myForm">
+             <form action="" id="myForm2">
             <div class="formContactoResponsive">
                 <h2>Queremos Escucharte</h2>
                 <div class="formBoxResponsive">
@@ -645,6 +661,8 @@
     
 
     <!-- Copio y pego para crear el QR-->
+
+    <!-- 
 
     <section class="sectionContacto" id="sectionContacto">
 
@@ -737,6 +755,8 @@
         </div>
 
     </section>
+
+    -->
     
 
     <div class="separador">
