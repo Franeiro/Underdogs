@@ -18,6 +18,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Exo:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script
+		src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous"></script>
+	<script>
+		function SubForm (){
+			$.ajax({
+				url:"https://api.apispreadsheets.com/data/6745/",
+				type:"post",
+				data:$("#myForm").serializeArray(),
+				success: function(){
+					alert("Form Data Submitted :)")
+				},
+				error: function(){
+					alert("There was an error :(")
+				}
+			});
+		}
+	</script>
     
 
         
@@ -490,7 +510,7 @@
 
     <!-- CONTACTO -->
 
-    <!--
+    
     <section class="sectionContacto" id="sectionContacto">
 
     
@@ -518,32 +538,32 @@
                    
                 
             </div>
-            <form action="">
+            <form action="" id="myForm">
             <div class="formContacto">
                 <h2>Queremos Escucharte</h2>
                 <div class="formBox">
                     <div class="inputBox w50">
-                        <input type="text" name="" required>
+                        <input  name="Nombre" required>
                         <span>Nombre</span>
                     </div>
 
                     <div class="inputBox w50">
-                        <input type="text" name="" required>
+                        <input  name="Apellido" required>
                         <span>Apellido</span>
                     </div>
 
                     <div class="inputBox w50">
-                        <input type="text" name="" required>
+                        <input name="Mail" required>
                         <span>E-Mail</span>
                     </div>
 
                     <div class="inputBox w100">
-                        <textarea name="" id="" required></textarea>
+                        <textarea name="Mensaje" required></textarea>
                         <span>Mandanos tu mensaje</span>
                     </div>
 
                     <div class="inputBox w100">
-                        <input type="submit" value="Enviar" class="submit" id="botonSub">
+                        <button onclick='SubForm()'>Submit</button>
                     </div>
 
                 </div>
@@ -621,7 +641,7 @@
         
     </div>
 
-    -->
+    
 
     <!-- Copio y pego para crear el QR-->
 
