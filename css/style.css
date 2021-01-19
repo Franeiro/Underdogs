@@ -465,7 +465,8 @@
     height: calc(100%-80px);
     background: #6335cf;
     z-index: 1;
-    padding: 40px;
+    padding-top: 40px;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -478,7 +479,7 @@
       font-family: 'Exo', sans-serif; }
   .info {
     position: relative;
-    margin: 20px 0; }
+    margin: 20px; }
     .info li {
       position: relative;
       list-style: none;
@@ -520,6 +521,16 @@
     width: calc(100% -150px);
     height: 100%;
     box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5); }
+    .formContacto button {
+      cursor: pointer;
+      background: #6335cf;
+      color: white;
+      border: none;
+      max-width: 150px;
+      padding: 12px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      width: 35%; }
     .formContacto h2 {
       font-size: 28px;
       font-weight: 500;
@@ -588,7 +599,7 @@
 @media screen and (min-width: 0px) and (max-width: 1150px) {
   .contactoInfoResponsive {
     background: #6335cf;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -603,6 +614,9 @@
       text-align: center;
       padding-top: 5%; }
   .infoResponsive {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin: 0 auto; }
     .infoResponsive li {
       list-style: none;
@@ -632,10 +646,20 @@
     background: #fff;
     justify-content: center;
     align-content: center;
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
     height: 100%;
     box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5); }
+    .formContactoResponsive button {
+      cursor: pointer;
+      background: #6335cf;
+      color: white;
+      border: none;
+      max-width: 150px;
+      padding: 12px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      width: 35%; }
     .formContactoResponsive h2 {
       font-size: 24px;
       font-weight: 500;
@@ -654,7 +678,8 @@
     padding-bottom: 20px; }
   #inputResponsive {
     margin: 0 auto;
-    padding-top: 25px; }
+    padding-top: 25px;
+    width: 75%; }
   #inputResponsive2 {
     margin: 0 auto;
     padding-top: 15px;
