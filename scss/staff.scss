@@ -23,7 +23,7 @@
     flex-wrap: wrap;
     width: 320px;
     border: solid black 1px;
-    height: 65vh;    
+    height: auto;    
     margin: auto;
     border-radius: 6px;
     
@@ -89,7 +89,9 @@
     background-color: lavender;
     padding: 3px;
     justify-content: center;
-    transform: translate(100px, 80px);
+    -webkit-transform: translate(50%, 50%);
+    transform: translate(85%, 50%);
+
 
     img
     {

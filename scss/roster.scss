@@ -129,6 +129,7 @@
     sans-serif;
     font-family: 'Exo',
     sans-serif;
+    
 
 
 }
@@ -161,6 +162,16 @@
     transform: translateY(175px);
     height: 350px;
     background: #333;
+
+    img 
+    {
+        opacity: 0.3;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        
+    }
     
 
     .contenido
@@ -224,6 +235,11 @@
        h3 
        {
            color: transparent;
+       }
+
+       img 
+       {
+           display: none;
        }
 
         .contenido
