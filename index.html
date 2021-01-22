@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -112,12 +119,12 @@
     <!-- OBJETIVO -->
 
     <h2 class="h2Objetivo" id="h2Objetivo"> Nuestro Objetivo</h2>
-    <p class="pObjetivo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni assumenda animi reprehenderit nemo aperiam iste minima illo, eaque iure, libero tenetur quis sapiente temporibus qui excepturi esse quibusdam asperiores vero laborum, laudantium aut veritatis dolorum tempora! Quos expedita maiores consectetur dolorem quasi pariatur, veniam amet illum voluptatibus obcaecati quibusdam libero debitis dolores. Facilis quae ratione libero, saepe labore harum quos molestiae nam nobis minima porro tempora?</p>
+    <p class="pObjetivo" data-aos="fade-up" data-aos-duration="1500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni assumenda animi reprehenderit nemo aperiam iste minima illo, eaque iure, libero tenetur quis sapiente temporibus qui excepturi esse quibusdam asperiores vero laborum, laudantium aut veritatis dolorum tempora! Quos expedita maiores consectetur dolorem quasi pariatur, veniam amet illum voluptatibus obcaecati quibusdam libero debitis dolores. Facilis quae ratione libero, saepe labore harum quos molestiae nam nobis minima porro tempora?</p>
     <!-- OBJETIVO -->
     
     <!-- ROSTER -->
     <h2 class="h2Roster" id="containerRoster">ROSTER</h2>
-    <div class="containerRoster"  >
+    <div class="containerRoster" data-aos="fade-up" data-aos-duration="900">
         <div class="roster">
             <div class="cara1-1" id="1">
                 <div class="contenido">
@@ -483,9 +490,9 @@
 
     <!-- STAFF -->
     <h2 class="h2Staff" id="h2Staff">Nuestro Equipo</h2>
-    <div class="containerStaff">
+    <div class="containerStaff" >
 
-        <div class="cartaStaff">
+        <div class="cartaStaff" data-aos="fade-up" data-aos-duration="900">
             <div class="superior">
                 <div class="imagenStaff">
                     <img src="images/caraBot.jpeg" alt="">
@@ -503,7 +510,7 @@
             
         </div>
 
-        <div class="cartaStaff">
+        <div class="cartaStaff" data-aos="fade-up" data-aos-duration="900">
             <div class="superior">
                 <div class="imagenStaff">
                     <img src="images/caraBot.jpeg" alt="">
@@ -521,7 +528,7 @@
         </div>
 
 
-        <div class="cartaStaff">
+        <div class="cartaStaff" data-aos="fade-up" data-aos-duration="900">
             <div class="superior">
                 <div class="imagenStaff">
                     <img src="images/caraBot.jpeg" alt="">
@@ -576,9 +583,9 @@
                 
             </div>
             <form action="" id="myForm">
-            <div class="formContacto">
+            <div class="formContacto" >
                 <h2>Queremos Escucharte</h2>
-                <div class="formBox">
+                <div class="formBox" >
                     <div class="inputBox w50">
                         <input  name="Nombre" >
                         <span>Nombre</span>
@@ -785,4 +792,15 @@
    
 
 </body>
+
+<script>
+AOS.init();
+ $('[data-aos]').parent().addClass('hideOverflowOnMobile');
+</script>
+
+<script>
+  
+
+
+</script>
 </html>
