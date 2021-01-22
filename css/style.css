@@ -458,6 +458,9 @@
   background: lavender;
   margin: 0; }
 
+.fa {
+  color: #008dff; }
+
 @media screen and (min-width: 1150px) {
   .sectionContacto {
     position: relative;
@@ -513,7 +516,7 @@
       .info li span:nth-child(1) {
         max-width: 100%;
         filter: invert(1);
-        opacity: 0.5; }
+        opacity: 0.8; }
       .info li span:nth-child(2) {
         color: #fff;
         margin-left: 10px;
@@ -532,7 +535,7 @@
         text-decoration: none; }
         .sci li a a {
           filter: invert(1);
-          opacity: 0.5; }
+          opacity: 0.8; }
     .sci li:hover a a {
       opacity: 1; }
   .formContacto {
@@ -650,13 +653,13 @@
       .infoResponsive li span:nth-child(1) {
         max-width: 100%;
         filter: invert(1);
-        opacity: 0.5;
+        opacity: 0.8;
         text-align: center; }
       .infoResponsive li span:nth-child(2) {
         color: #fff;
         margin-left: 10px;
         font-weight: 300;
-        opacity: 0.5; }
+        opacity: 0.75; }
     .infoResponsive li:hover span:nth-child(1) a,
     .infoResponsive li:hover span:nth-child(2) {
       opacity: 1; }
