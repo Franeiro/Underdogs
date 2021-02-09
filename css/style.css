@@ -1,6 +1,7 @@
 .navbar-expand-lg {
   background-color: #493db4;
-  font-family: 'Exo', sans-serif; }
+  font-family: 'Exo',
+ sans-serif; }
 
 .navbar-brand {
   font-size: 22px; }
@@ -20,11 +21,13 @@
   padding-top: 25px; }
 
 .h2Objetivo {
-  font-family: 'Exo', sans-serif; }
+  font-family: 'Exo',
+ sans-serif; }
 
 .pObjetivo {
   font-weight: 400;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Dosis',
+ sans-serif;
   padding-bottom: 25px;
   width: 70%;
   margin-right: 15%;
@@ -149,13 +152,15 @@
   margin: auto;
   align-content: space-between;
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 8%;
   row-gap: 2rem;
   background: #333;
   flex: wrap;
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-  font-family: 'Dosis', sans-serif;
-  font-family: 'Exo', sans-serif; }
+  font-family: 'Dosis',
+ sans-serif;
+  font-family: 'Exo',
+ sans-serif; }
 
 .roster {
   height: 450px;
@@ -172,7 +177,8 @@
 .cara1-5,
 .cara1-6,
 .cara1-7,
-.cara1-8 {
+.cara1-8,
+.cara1-9 {
   position: relative;
   display: flex;
   justify-content: center;
@@ -189,7 +195,8 @@
   .cara1-5 img,
   .cara1-6 img,
   .cara1-7 img,
-  .cara1-8 img {
+  .cara1-8 img,
+  .cara1-9 img {
     opacity: 0.3;
     display: block;
     margin-left: auto;
@@ -202,7 +209,8 @@
   .cara1-5 .contenido,
   .cara1-6 .contenido,
   .cara1-7 .contenido,
-  .cara1-8 .contenido {
+  .cara1-8 .contenido,
+  .cara1-9 .contenido {
     opacity: 0.5;
     transition: 0.5s; }
     .cara1-1 .contenido h3,
@@ -212,7 +220,8 @@
     .cara1-5 .contenido h3,
     .cara1-6 .contenido h3,
     .cara1-7 .contenido h3,
-    .cara1-8 .contenido h3 {
+    .cara1-8 .contenido h3,
+    .cara1-9 .contenido h3 {
       margin: 10px 0 0;
       padding: 0;
       color: #fff;
@@ -243,7 +252,8 @@
 .roster:hover .cara1-5,
 .roster:hover .cara1-6,
 .roster:hover .cara1-7,
-.roster:hover .cara1-8 {
+.roster:hover .cara1-8,
+.roster:hover .cara1-9 {
   height: 150px;
   transform: translateY(0); }
   .roster:hover .cara1-1 h3,
@@ -253,7 +263,8 @@
   .roster:hover .cara1-5 h3,
   .roster:hover .cara1-6 h3,
   .roster:hover .cara1-7 h3,
-  .roster:hover .cara1-8 h3 {
+  .roster:hover .cara1-8 h3,
+  .roster:hover .cara1-9 h3 {
     color: transparent; }
   .roster:hover .cara1-1 img,
   .roster:hover .cara1-2 img,
@@ -262,7 +273,8 @@
   .roster:hover .cara1-5 img,
   .roster:hover .cara1-6 img,
   .roster:hover .cara1-7 img,
-  .roster:hover .cara1-8 img {
+  .roster:hover .cara1-8 img,
+  .roster:hover .cara1-9 img {
     display: none; }
   .roster:hover .cara1-1 .contenido,
   .roster:hover .cara1-2 .contenido,
@@ -271,7 +283,8 @@
   .roster:hover .cara1-5 .contenido,
   .roster:hover .cara1-6 .contenido,
   .roster:hover .cara1-7 .contenido,
-  .roster:hover .cara1-8 .contenido {
+  .roster:hover .cara1-8 .contenido,
+  .roster:hover .cara1-9 .contenido {
     opacity: 1; }
 
 .roster:hover .cara2 {
@@ -316,7 +329,15 @@
 .roster:hover .cara1-8 {
   background-repeat: no-repeat;
   background-size: 350px 150px;
-  background-image: url(../images/Banners/kun.png); }
+  background-image: url(../images/Banners/youTrash.jpg); }
+
+
+
+
+.roster:hover .cara1-9 {
+  background-repeat: no-repeat;
+  background-size: 350px 150px;
+  background-image: url(../images/Banners/xofrajua.jpg); }
 
 .skills {
   width: 75%;
@@ -346,13 +367,17 @@
   background-color: #33339b; }
 
 .h2Roster {
-  font-family: 'Dosis', sans-serif;
-  font-family: 'Exo', sans-serif;
+  font-family: 'Dosis',
+ sans-serif;
+  font-family: 'Exo',
+ sans-serif;
   text-align: center; }
 
 .h2Galeria {
-  font-family: 'Dosis', sans-serif;
-  font-family: 'Exo', sans-serif;
+  font-family: 'Dosis',
+ sans-serif;
+  font-family: 'Exo',
+ sans-serif;
   text-align: center;
   padding-top: 10px;
   background: lavender;
@@ -369,8 +394,10 @@
   row-gap: 1.5rem;
   padding-top: 55px;
   padding-bottom: 55px;
-  font-family: 'Dosis', sans-serif;
-  font-family: 'Exo', sans-serif; }
+  font-family: 'Dosis',
+ sans-serif;
+  font-family: 'Exo',
+ sans-serif; }
 
 .cartaStaff {
   display: flex;
@@ -450,8 +477,10 @@
   padding-top: 20px; }
 
 .h2Staff {
-  font-family: 'Dosis', sans-serif;
-  font-family: 'Exo', sans-serif;
+  font-family: 'Dosis',
+ sans-serif;
+  font-family: 'Exo',
+ sans-serif;
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -501,8 +530,10 @@
       color: #fff;
       font-size: 24px;
       font-weight: 500;
-      font-family: 'Dosis', sans-serif;
-      font-family: 'Exo', sans-serif; }
+      font-family: 'Dosis',
+ sans-serif;
+      font-family: 'Exo',
+ sans-serif; }
   .info {
     position: relative;
     margin: 20px; }
@@ -560,8 +591,10 @@
     .formContacto h2 {
       font-size: 28px;
       font-weight: 500;
-      font-family: 'Dosis', sans-serif;
-      font-family: 'Exo', sans-serif;
+      font-family: 'Dosis',
+ sans-serif;
+      font-family: 'Exo',
+ sans-serif;
       text-align: center; }
   .formBox {
     position: relative;
@@ -635,8 +668,10 @@
       color: #fff;
       font-size: 26px;
       font-weight: 500;
-      font-family: 'Dosis', sans-serif;
-      font-family: 'Exo', sans-serif;
+      font-family: 'Dosis',
+ sans-serif;
+      font-family: 'Exo',
+ sans-serif;
       text-align: center;
       padding-top: 5%; }
   .infoResponsive {
@@ -689,8 +724,10 @@
     .formContactoResponsive h2 {
       font-size: 24px;
       font-weight: 500;
-      font-family: 'Dosis', sans-serif;
-      font-family: 'Exo', sans-serif;
+      font-family: 'Dosis',
+ sans-serif;
+      font-family: 'Exo',
+ sans-serif;
       padding-top: 12px; }
   .formBoxResponsive {
     align-content: center;
@@ -773,8 +810,10 @@
 .textoQRResponsive h3 {
   font-size: 16px;
   font-weight: 200;
-  font-family: 'Dosis', sans-serif;
-  font-family: 'Exo', sans-serif;
+  font-family: 'Dosis',
+ sans-serif;
+  font-family: 'Exo',
+ sans-serif;
   padding-top: 10px;
   padding-bottom: 15px;
   padding-right: 10px;
@@ -791,8 +830,10 @@
   display: grid;
   text-align: center;
   font-weight: 200;
-  font-family: 'Dosis', sans-serif;
-  font-family: 'Exo', sans-serif;
+  font-family: 'Dosis',
+ sans-serif;
+  font-family: 'Exo',
+ sans-serif;
   padding-top: 15px;
   text-align: center;
   align-content: center; }
@@ -816,8 +857,10 @@
     text-decoration: none; } }
 
 footer {
-  font-family: 'Dosis', sans-serif;
-  font-family: 'Exo', sans-serif; }
+  font-family: 'Dosis',
+ sans-serif;
+  font-family: 'Exo',
+ sans-serif; }
   footer h5 {
     font-weight: 600;
     text-align: center;
