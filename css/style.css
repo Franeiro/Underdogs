@@ -149,7 +149,7 @@
   margin: auto;
   align-content: space-between;
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 8%;
   row-gap: 2rem;
   background: #333;
   flex: wrap;
@@ -172,7 +172,8 @@
 .cara1-5,
 .cara1-6,
 .cara1-7,
-.cara1-8 {
+.cara1-8,
+.cara1-9 {
   position: relative;
   display: flex;
   justify-content: center;
@@ -189,7 +190,8 @@
   .cara1-5 img,
   .cara1-6 img,
   .cara1-7 img,
-  .cara1-8 img {
+  .cara1-8 img,
+  .cara1-9 img {
     opacity: 0.3;
     display: block;
     margin-left: auto;
@@ -202,7 +204,8 @@
   .cara1-5 .contenido,
   .cara1-6 .contenido,
   .cara1-7 .contenido,
-  .cara1-8 .contenido {
+  .cara1-8 .contenido,
+  .cara1-9 .contenido {
     opacity: 0.5;
     transition: 0.5s; }
     .cara1-1 .contenido h3,
@@ -212,7 +215,8 @@
     .cara1-5 .contenido h3,
     .cara1-6 .contenido h3,
     .cara1-7 .contenido h3,
-    .cara1-8 .contenido h3 {
+    .cara1-8 .contenido h3,
+    .cara1-9 .contenido h3 {
       margin: 10px 0 0;
       padding: 0;
       color: #fff;
@@ -243,7 +247,8 @@
 .roster:hover .cara1-5,
 .roster:hover .cara1-6,
 .roster:hover .cara1-7,
-.roster:hover .cara1-8 {
+.roster:hover .cara1-8,
+.roster:hover .cara1-9 {
   height: 150px;
   transform: translateY(0); }
   .roster:hover .cara1-1 h3,
@@ -253,7 +258,8 @@
   .roster:hover .cara1-5 h3,
   .roster:hover .cara1-6 h3,
   .roster:hover .cara1-7 h3,
-  .roster:hover .cara1-8 h3 {
+  .roster:hover .cara1-8 h3,
+  .roster:hover .cara1-9 h3 {
     color: transparent; }
   .roster:hover .cara1-1 img,
   .roster:hover .cara1-2 img,
@@ -262,7 +268,8 @@
   .roster:hover .cara1-5 img,
   .roster:hover .cara1-6 img,
   .roster:hover .cara1-7 img,
-  .roster:hover .cara1-8 img {
+  .roster:hover .cara1-8 img,
+  .roster:hover .cara1-9 img {
     display: none; }
   .roster:hover .cara1-1 .contenido,
   .roster:hover .cara1-2 .contenido,
@@ -271,7 +278,8 @@
   .roster:hover .cara1-5 .contenido,
   .roster:hover .cara1-6 .contenido,
   .roster:hover .cara1-7 .contenido,
-  .roster:hover .cara1-8 .contenido {
+  .roster:hover .cara1-8 .contenido,
+  .roster:hover .cara1-9 .contenido {
     opacity: 1; }
 
 .roster:hover .cara2 {
@@ -317,6 +325,11 @@
   background-repeat: no-repeat;
   background-size: 350px 150px;
   background-image: url(../images/Banners/kun.png); }
+
+.roster:hover .cara1-9 {
+  background-repeat: no-repeat;
+  background-size: 350px 150px;
+  background-image: url(../images/Banners/xofrajua.jpg); }
 
 .skills {
   width: 75%;

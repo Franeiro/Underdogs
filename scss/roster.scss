@@ -120,7 +120,7 @@
     margin: auto;
     align-content: space-between;
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 8%;
     row-gap: 2rem;
     background: #333;
     flex: wrap;
@@ -151,7 +151,8 @@
 .cara1-5,
 .cara1-6,
 .cara1-7,
-.cara1-8
+.cara1-8,
+.cara1-9
 {
     position: relative;
     display: flex;
@@ -228,7 +229,8 @@
     .cara1-5,
     .cara1-6,
     .cara1-7,    
-    .cara1-8
+    .cara1-8,
+    .cara1-9
     {
         
         
@@ -312,6 +314,13 @@
         background-repeat: no-repeat;
         background-size: 350px 150px;
         background-image: url(../images/Banners/kun.png);
+    }
+
+    .cara1-9
+    {
+        background-repeat: no-repeat;
+        background-size: 350px 150px;
+        background-image: url(../images/Banners/xofrajua.jpg);
     }
 }
 
