@@ -1993,8 +1993,31 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   align-items: center; }
 
 .seccionTweets {
-  padding-top: 2%;
-  padding-bottom: 2%; }
+  box-sizing: border-box;
+  border: solid black 5px;
+  position: relative; }
+
+.seccionTweets::after, .seccionTweets::before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  top: 100%;
+  left: 50%; }
+
+.seccionTweets::after {
+  border-top: 40px solid #6335cf;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-left: 40px solid transparent;
+  margin-left: -40px; }
+
+.seccionTweets::before {
+  border-top: 45px solid black;
+  border-right: 45px solid transparent;
+  border-bottom: 45px solid transparent;
+  border-left: 45px solid transparent;
+  margin-left: -45px; }
 
 .h2Noticias {
   text-align: center;
